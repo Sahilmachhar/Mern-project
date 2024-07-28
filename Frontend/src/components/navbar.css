@@ -1,0 +1,20 @@
+.container{
+    max-width: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+    background-color: #011627;
+}
+
+ul{
+    display: flex;
+    gap: 3.5rem;
+    
+}
+
+.nav-link {
+    text-decoration: none;
+    color:cornflowerblue;
+    font-size: 1.2rem;
+  }
+

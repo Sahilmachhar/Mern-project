@@ -1,0 +1,37 @@
+.register-container{
+    width: auto;
+    height: 84vh;
+    background-color: #011627;
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-register{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+.input-reg{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.56;
+    color: antiquewhite;
+}
+
+.submit-but{
+    border-radius: 1rem;
+    border-style: none;
+    background-color:rgb(100, 100, 230);
+    height: 2rem;
+    width: 6rem;
+    font-size: 0.8rem;
+    font-weight:bold;
+    padding: 0.1rem 0.2rem;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+    
+}

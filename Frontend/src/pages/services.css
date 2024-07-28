@@ -1,0 +1,23 @@
+.main-container{
+    background-color: #011627;
+}
+
+.title-services{
+    color: antiquewhite;
+    font-size: 1.5rem;
+    padding: 0 5rem;
+}
+.container-services{
+    padding: 4rem 8rem;
+    color: antiquewhite;
+}
+
+.grid{
+    display: grid;
+    align-self: center;
+    gap: 5rem;
+}
+
+.grid-three-cols{
+    grid-template-columns: repeat(3, 1fr);
+}

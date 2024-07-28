@@ -1,0 +1,47 @@
+.contact-container{
+    background-color: #011627;
+    padding-top: 3rem;
+}
+
+.grid{
+    display: grid;
+    gap: 3rem;
+}
+
+.grid-two-cols{
+    grid-template-columns: repeat(2,1fr);
+}
+.input-con{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.56;
+    color: antiquewhite;
+}
+
+.contact-area{
+    /* align-self: center; */
+    justify-self: center;
+}
+
+.form-contact{
+    margin-top: 2rem;
+}
+
+.title-contact{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+}
+
+input,textarea{
+    width: 100%;
+    padding: 0.4rem 1rem;
+}

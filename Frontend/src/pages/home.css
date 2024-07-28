@@ -1,0 +1,50 @@
+.home-container{
+    background-color: #011627;
+    padding: 4rem 8rem;
+}
+.content-area{
+    color: antiquewhite;
+    font-size: 1rem;
+
+    & h2{
+        font-size: 4rem;
+        margin: 2rem 0;
+        line-height: 4rem;
+    }
+}
+
+.grid{
+    display: grid;
+    gap: 9rem;
+}
+
+.grid-two-cols{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.for-btn{
+    margin: 2rem 0;
+}
+
+.btn{
+    height: 2rem;
+    width: 6rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    /* color: antiquewhite; */
+    /* background-color: blue; */
+    border-radius: 0.6rem;
+    border: .2rem solid transparent;
+    cursor: pointer;
+    /* transition: border 0.3s; */
+    box-shadow: 0 0 0 0.1rem white;
+}
+
+.secondary{
+    margin-left: 1rem;
+    background-color: transparent;
+    color: antiquewhite;
+}
+
+

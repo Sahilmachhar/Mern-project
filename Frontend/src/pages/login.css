@@ -1,0 +1,26 @@
+.login-container{
+    width: auto;
+    height: 84vh;
+    padding-top: 3rem;
+    /* padding-bottom: 4rem; */
+    background-color: #011627;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.title-login{
+    color: antiquewhite;
+    font-size: 1.5rem;
+}
+
+.input-login{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    line-height: 1.56;
+    color: antiquewhite;
+}
+
+.submit-but{
+    border-radius: 10;
+    background-color:aliceblue;
+}
